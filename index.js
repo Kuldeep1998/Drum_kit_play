@@ -19,19 +19,19 @@ function events(){
 
 function makeSound(key){
   switch(key){
-    case "a":
+    case "w":
       var tom1 = new Audio("sounds/tom-1.mp3");
     return tom1.play();
     break;
-    case "s":
+    case "a":
       var tom2 = new Audio("sounds/tom-2.mp3");
     return tom2.play();
 break;
-    case "d":
+    case "s":
       var tom3 = new Audio("sounds/tom-3.mp3");
     return tom3.play();
 break;
-    case "f":
+    case "d":
       var tom4 = new Audio("sounds/tom-4.mp3");
     return tom4.play();
 break;
